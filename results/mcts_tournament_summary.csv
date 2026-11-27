@@ -1,0 +1,5 @@
+﻿Opponent,Win,Draw,Loss,Games,Score_Rate
+Alpha-Beta,0,4,0,4,50.0
+Heuristic,0,4,0,4,50.0
+Minimax,0,4,0,4,50.0
+Random,4,0,0,4,100.0

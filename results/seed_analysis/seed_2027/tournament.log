@@ -1,0 +1,355 @@
+============================================================
+ROUND-ROBIN TOURNAMENT
+============================================================
+Agents: ['Random', 'Heuristic', 'Minimax', 'Alpha-Beta', 'MCTS', 'DQN']
+Số cặp đấu: 15
+Số ván mỗi cặp: 20
+Tổng số ván: 300
+============================================================
+
+[1/15] Random vs Heuristic
+  Game 001/20: X=Random     O=Heuristic  Winner=Heuristic
+  Game 002/20: X=Random     O=Heuristic  Winner=Heuristic
+  Game 003/20: X=Random     O=Heuristic  Winner=Heuristic
+  Game 004/20: X=Random     O=Heuristic  Winner=Heuristic
+  Game 005/20: X=Random     O=Heuristic  Winner=Heuristic
+  Game 006/20: X=Random     O=Heuristic  Winner=Heuristic
+  Game 007/20: X=Random     O=Heuristic  Winner=Heuristic
+  Game 008/20: X=Random     O=Heuristic  Winner=Heuristic
+  Game 009/20: X=Random     O=Heuristic  Winner=Heuristic
+  Game 010/20: X=Random     O=Heuristic  Winner=Heuristic
+  Game 011/20: X=Heuristic  O=Random     Winner=Heuristic
+  Game 012/20: X=Heuristic  O=Random     Winner=Heuristic
+  Game 013/20: X=Heuristic  O=Random     Winner=Heuristic
+  Game 014/20: X=Heuristic  O=Random     Winner=Heuristic
+  Game 015/20: X=Heuristic  O=Random     Winner=Heuristic
+  Game 016/20: X=Heuristic  O=Random     Winner=Heuristic
+  Game 017/20: X=Heuristic  O=Random     Winner=Heuristic
+  Game 018/20: X=Heuristic  O=Random     Winner=Heuristic
+  Game 019/20: X=Heuristic  O=Random     Winner=Heuristic
+  Game 020/20: X=Heuristic  O=Random     Winner=Heuristic
+
+[2/15] Random vs Minimax
+  Game 001/20: X=Random     O=Minimax    Winner=Minimax
+  Game 002/20: X=Random     O=Minimax    Winner=Minimax
+  Game 003/20: X=Random     O=Minimax    Winner=Minimax
+  Game 004/20: X=Random     O=Minimax    Winner=Minimax
+  Game 005/20: X=Random     O=Minimax    Winner=Minimax
+  Game 006/20: X=Random     O=Minimax    Winner=DRAW
+  Game 007/20: X=Random     O=Minimax    Winner=Minimax
+  Game 008/20: X=Random     O=Minimax    Winner=Minimax
+  Game 009/20: X=Random     O=Minimax    Winner=DRAW
+  Game 010/20: X=Random     O=Minimax    Winner=DRAW
+  Game 011/20: X=Minimax    O=Random     Winner=Minimax
+  Game 012/20: X=Minimax    O=Random     Winner=Minimax
+  Game 013/20: X=Minimax    O=Random     Winner=Minimax
+  Game 014/20: X=Minimax    O=Random     Winner=Minimax
+  Game 015/20: X=Minimax    O=Random     Winner=DRAW
+  Game 016/20: X=Minimax    O=Random     Winner=Minimax
+  Game 017/20: X=Minimax    O=Random     Winner=DRAW
+  Game 018/20: X=Minimax    O=Random     Winner=Minimax
+  Game 019/20: X=Minimax    O=Random     Winner=DRAW
+  Game 020/20: X=Minimax    O=Random     Winner=Minimax
+
+[3/15] Random vs Alpha-Beta
+  Game 001/20: X=Random     O=Alpha-Beta Winner=Alpha-Beta
+  Game 002/20: X=Random     O=Alpha-Beta Winner=Alpha-Beta
+  Game 003/20: X=Random     O=Alpha-Beta Winner=DRAW
+  Game 004/20: X=Random     O=Alpha-Beta Winner=Alpha-Beta
+  Game 005/20: X=Random     O=Alpha-Beta Winner=Alpha-Beta
+  Game 006/20: X=Random     O=Alpha-Beta Winner=Alpha-Beta
+  Game 007/20: X=Random     O=Alpha-Beta Winner=Alpha-Beta
+  Game 008/20: X=Random     O=Alpha-Beta Winner=Alpha-Beta
+  Game 009/20: X=Random     O=Alpha-Beta Winner=Alpha-Beta
+  Game 010/20: X=Random     O=Alpha-Beta Winner=DRAW
+  Game 011/20: X=Alpha-Beta O=Random     Winner=DRAW
+  Game 012/20: X=Alpha-Beta O=Random     Winner=Alpha-Beta
+  Game 013/20: X=Alpha-Beta O=Random     Winner=DRAW
+  Game 014/20: X=Alpha-Beta O=Random     Winner=Alpha-Beta
+  Game 015/20: X=Alpha-Beta O=Random     Winner=Alpha-Beta
+  Game 016/20: X=Alpha-Beta O=Random     Winner=Alpha-Beta
+  Game 017/20: X=Alpha-Beta O=Random     Winner=Alpha-Beta
+  Game 018/20: X=Alpha-Beta O=Random     Winner=Alpha-Beta
+  Game 019/20: X=Alpha-Beta O=Random     Winner=Alpha-Beta
+  Game 020/20: X=Alpha-Beta O=Random     Winner=Alpha-Beta
+
+[4/15] Random vs MCTS
+  Game 001/20: X=Random     O=MCTS       Winner=MCTS
+  Game 002/20: X=Random     O=MCTS       Winner=MCTS
+  Game 003/20: X=Random     O=MCTS       Winner=MCTS
+  Game 004/20: X=Random     O=MCTS       Winner=MCTS
+  Game 005/20: X=Random     O=MCTS       Winner=MCTS
+  Game 006/20: X=Random     O=MCTS       Winner=MCTS
+  Game 007/20: X=Random     O=MCTS       Winner=MCTS
+  Game 008/20: X=Random     O=MCTS       Winner=MCTS
+  Game 009/20: X=Random     O=MCTS       Winner=MCTS
+  Game 010/20: X=Random     O=MCTS       Winner=MCTS
+  Game 011/20: X=MCTS       O=Random     Winner=MCTS
+  Game 012/20: X=MCTS       O=Random     Winner=MCTS
+  Game 013/20: X=MCTS       O=Random     Winner=MCTS
+  Game 014/20: X=MCTS       O=Random     Winner=MCTS
+  Game 015/20: X=MCTS       O=Random     Winner=MCTS
+  Game 016/20: X=MCTS       O=Random     Winner=MCTS
+  Game 017/20: X=MCTS       O=Random     Winner=MCTS
+  Game 018/20: X=MCTS       O=Random     Winner=MCTS
+  Game 019/20: X=MCTS       O=Random     Winner=MCTS
+  Game 020/20: X=MCTS       O=Random     Winner=MCTS
+
+[5/15] Random vs DQN
+  Game 001/20: X=Random     O=DQN        Winner=DQN
+  Game 002/20: X=Random     O=DQN        Winner=DRAW
+  Game 003/20: X=Random     O=DQN        Winner=DQN
+  Game 004/20: X=Random     O=DQN        Winner=DQN
+  Game 005/20: X=Random     O=DQN        Winner=DRAW
+  Game 006/20: X=Random     O=DQN        Winner=DQN
+  Game 007/20: X=Random     O=DQN        Winner=Random
+  Game 008/20: X=Random     O=DQN        Winner=DQN
+  Game 009/20: X=Random     O=DQN        Winner=Random
+  Game 010/20: X=Random     O=DQN        Winner=DQN
+  Game 011/20: X=DQN        O=Random     Winner=DQN
+  Game 012/20: X=DQN        O=Random     Winner=DRAW
+  Game 013/20: X=DQN        O=Random     Winner=DQN
+  Game 014/20: X=DQN        O=Random     Winner=DQN
+  Game 015/20: X=DQN        O=Random     Winner=DQN
+  Game 016/20: X=DQN        O=Random     Winner=DQN
+  Game 017/20: X=DQN        O=Random     Winner=DQN
+  Game 018/20: X=DQN        O=Random     Winner=DQN
+  Game 019/20: X=DQN        O=Random     Winner=DQN
+  Game 020/20: X=DQN        O=Random     Winner=DQN
+
+[6/15] Heuristic vs Minimax
+  Game 001/20: X=Heuristic  O=Minimax    Winner=DRAW
+  Game 002/20: X=Heuristic  O=Minimax    Winner=DRAW
+  Game 003/20: X=Heuristic  O=Minimax    Winner=DRAW
+  Game 004/20: X=Heuristic  O=Minimax    Winner=DRAW
+  Game 005/20: X=Heuristic  O=Minimax    Winner=DRAW
+  Game 006/20: X=Heuristic  O=Minimax    Winner=DRAW
+  Game 007/20: X=Heuristic  O=Minimax    Winner=DRAW
+  Game 008/20: X=Heuristic  O=Minimax    Winner=DRAW
+  Game 009/20: X=Heuristic  O=Minimax    Winner=DRAW
+  Game 010/20: X=Heuristic  O=Minimax    Winner=DRAW
+  Game 011/20: X=Minimax    O=Heuristic  Winner=DRAW
+  Game 012/20: X=Minimax    O=Heuristic  Winner=DRAW
+  Game 013/20: X=Minimax    O=Heuristic  Winner=DRAW
+  Game 014/20: X=Minimax    O=Heuristic  Winner=DRAW
+  Game 015/20: X=Minimax    O=Heuristic  Winner=DRAW
+  Game 016/20: X=Minimax    O=Heuristic  Winner=DRAW
+  Game 017/20: X=Minimax    O=Heuristic  Winner=DRAW
+  Game 018/20: X=Minimax    O=Heuristic  Winner=DRAW
+  Game 019/20: X=Minimax    O=Heuristic  Winner=DRAW
+  Game 020/20: X=Minimax    O=Heuristic  Winner=DRAW
+
+[7/15] Heuristic vs Alpha-Beta
+  Game 001/20: X=Heuristic  O=Alpha-Beta Winner=DRAW
+  Game 002/20: X=Heuristic  O=Alpha-Beta Winner=DRAW
+  Game 003/20: X=Heuristic  O=Alpha-Beta Winner=DRAW
+  Game 004/20: X=Heuristic  O=Alpha-Beta Winner=DRAW
+  Game 005/20: X=Heuristic  O=Alpha-Beta Winner=DRAW
+  Game 006/20: X=Heuristic  O=Alpha-Beta Winner=DRAW
+  Game 007/20: X=Heuristic  O=Alpha-Beta Winner=DRAW
+  Game 008/20: X=Heuristic  O=Alpha-Beta Winner=DRAW
+  Game 009/20: X=Heuristic  O=Alpha-Beta Winner=DRAW
+  Game 010/20: X=Heuristic  O=Alpha-Beta Winner=DRAW
+  Game 011/20: X=Alpha-Beta O=Heuristic  Winner=DRAW
+  Game 012/20: X=Alpha-Beta O=Heuristic  Winner=DRAW
+  Game 013/20: X=Alpha-Beta O=Heuristic  Winner=DRAW
+  Game 014/20: X=Alpha-Beta O=Heuristic  Winner=DRAW
+  Game 015/20: X=Alpha-Beta O=Heuristic  Winner=DRAW
+  Game 016/20: X=Alpha-Beta O=Heuristic  Winner=DRAW
+  Game 017/20: X=Alpha-Beta O=Heuristic  Winner=DRAW
+  Game 018/20: X=Alpha-Beta O=Heuristic  Winner=DRAW
+  Game 019/20: X=Alpha-Beta O=Heuristic  Winner=DRAW
+  Game 020/20: X=Alpha-Beta O=Heuristic  Winner=DRAW
+
+[8/15] Heuristic vs MCTS
+  Game 001/20: X=Heuristic  O=MCTS       Winner=DRAW
+  Game 002/20: X=Heuristic  O=MCTS       Winner=DRAW
+  Game 003/20: X=Heuristic  O=MCTS       Winner=DRAW
+  Game 004/20: X=Heuristic  O=MCTS       Winner=DRAW
+  Game 005/20: X=Heuristic  O=MCTS       Winner=DRAW
+  Game 006/20: X=Heuristic  O=MCTS       Winner=DRAW
+  Game 007/20: X=Heuristic  O=MCTS       Winner=DRAW
+  Game 008/20: X=Heuristic  O=MCTS       Winner=DRAW
+  Game 009/20: X=Heuristic  O=MCTS       Winner=DRAW
+  Game 010/20: X=Heuristic  O=MCTS       Winner=DRAW
+  Game 011/20: X=MCTS       O=Heuristic  Winner=DRAW
+  Game 012/20: X=MCTS       O=Heuristic  Winner=DRAW
+  Game 013/20: X=MCTS       O=Heuristic  Winner=DRAW
+  Game 014/20: X=MCTS       O=Heuristic  Winner=DRAW
+  Game 015/20: X=MCTS       O=Heuristic  Winner=DRAW
+  Game 016/20: X=MCTS       O=Heuristic  Winner=DRAW
+  Game 017/20: X=MCTS       O=Heuristic  Winner=DRAW
+  Game 018/20: X=MCTS       O=Heuristic  Winner=DRAW
+  Game 019/20: X=MCTS       O=Heuristic  Winner=DRAW
+  Game 020/20: X=MCTS       O=Heuristic  Winner=DRAW
+
+[9/15] Heuristic vs DQN
+  Game 001/20: X=Heuristic  O=DQN        Winner=Heuristic
+  Game 002/20: X=Heuristic  O=DQN        Winner=Heuristic
+  Game 003/20: X=Heuristic  O=DQN        Winner=Heuristic
+  Game 004/20: X=Heuristic  O=DQN        Winner=Heuristic
+  Game 005/20: X=Heuristic  O=DQN        Winner=Heuristic
+  Game 006/20: X=Heuristic  O=DQN        Winner=Heuristic
+  Game 007/20: X=Heuristic  O=DQN        Winner=Heuristic
+  Game 008/20: X=Heuristic  O=DQN        Winner=Heuristic
+  Game 009/20: X=Heuristic  O=DQN        Winner=Heuristic
+  Game 010/20: X=Heuristic  O=DQN        Winner=Heuristic
+  Game 011/20: X=DQN        O=Heuristic  Winner=Heuristic
+  Game 012/20: X=DQN        O=Heuristic  Winner=Heuristic
+  Game 013/20: X=DQN        O=Heuristic  Winner=Heuristic
+  Game 014/20: X=DQN        O=Heuristic  Winner=Heuristic
+  Game 015/20: X=DQN        O=Heuristic  Winner=Heuristic
+  Game 016/20: X=DQN        O=Heuristic  Winner=Heuristic
+  Game 017/20: X=DQN        O=Heuristic  Winner=Heuristic
+  Game 018/20: X=DQN        O=Heuristic  Winner=Heuristic
+  Game 019/20: X=DQN        O=Heuristic  Winner=Heuristic
+  Game 020/20: X=DQN        O=Heuristic  Winner=Heuristic
+
+[10/15] Minimax vs Alpha-Beta
+  Game 001/20: X=Minimax    O=Alpha-Beta Winner=DRAW
+  Game 002/20: X=Minimax    O=Alpha-Beta Winner=DRAW
+  Game 003/20: X=Minimax    O=Alpha-Beta Winner=DRAW
+  Game 004/20: X=Minimax    O=Alpha-Beta Winner=DRAW
+  Game 005/20: X=Minimax    O=Alpha-Beta Winner=DRAW
+  Game 006/20: X=Minimax    O=Alpha-Beta Winner=DRAW
+  Game 007/20: X=Minimax    O=Alpha-Beta Winner=DRAW
+  Game 008/20: X=Minimax    O=Alpha-Beta Winner=DRAW
+  Game 009/20: X=Minimax    O=Alpha-Beta Winner=DRAW
+  Game 010/20: X=Minimax    O=Alpha-Beta Winner=DRAW
+  Game 011/20: X=Alpha-Beta O=Minimax    Winner=DRAW
+  Game 012/20: X=Alpha-Beta O=Minimax    Winner=DRAW
+  Game 013/20: X=Alpha-Beta O=Minimax    Winner=DRAW
+  Game 014/20: X=Alpha-Beta O=Minimax    Winner=DRAW
+  Game 015/20: X=Alpha-Beta O=Minimax    Winner=DRAW
+  Game 016/20: X=Alpha-Beta O=Minimax    Winner=DRAW
+  Game 017/20: X=Alpha-Beta O=Minimax    Winner=DRAW
+  Game 018/20: X=Alpha-Beta O=Minimax    Winner=DRAW
+  Game 019/20: X=Alpha-Beta O=Minimax    Winner=DRAW
+  Game 020/20: X=Alpha-Beta O=Minimax    Winner=DRAW
+
+[11/15] Minimax vs MCTS
+  Game 001/20: X=Minimax    O=MCTS       Winner=DRAW
+  Game 002/20: X=Minimax    O=MCTS       Winner=DRAW
+  Game 003/20: X=Minimax    O=MCTS       Winner=DRAW
+  Game 004/20: X=Minimax    O=MCTS       Winner=DRAW
+  Game 005/20: X=Minimax    O=MCTS       Winner=DRAW
+  Game 006/20: X=Minimax    O=MCTS       Winner=DRAW
+  Game 007/20: X=Minimax    O=MCTS       Winner=DRAW
+  Game 008/20: X=Minimax    O=MCTS       Winner=DRAW
+  Game 009/20: X=Minimax    O=MCTS       Winner=DRAW
+  Game 010/20: X=Minimax    O=MCTS       Winner=DRAW
+  Game 011/20: X=MCTS       O=Minimax    Winner=DRAW
+  Game 012/20: X=MCTS       O=Minimax    Winner=DRAW
+  Game 013/20: X=MCTS       O=Minimax    Winner=DRAW
+  Game 014/20: X=MCTS       O=Minimax    Winner=DRAW
+  Game 015/20: X=MCTS       O=Minimax    Winner=DRAW
+  Game 016/20: X=MCTS       O=Minimax    Winner=DRAW
+  Game 017/20: X=MCTS       O=Minimax    Winner=DRAW
+  Game 018/20: X=MCTS       O=Minimax    Winner=DRAW
+  Game 019/20: X=MCTS       O=Minimax    Winner=DRAW
+  Game 020/20: X=MCTS       O=Minimax    Winner=DRAW
+
+[12/15] Minimax vs DQN
+  Game 001/20: X=Minimax    O=DQN        Winner=Minimax
+  Game 002/20: X=Minimax    O=DQN        Winner=Minimax
+  Game 003/20: X=Minimax    O=DQN        Winner=Minimax
+  Game 004/20: X=Minimax    O=DQN        Winner=Minimax
+  Game 005/20: X=Minimax    O=DQN        Winner=Minimax
+  Game 006/20: X=Minimax    O=DQN        Winner=Minimax
+  Game 007/20: X=Minimax    O=DQN        Winner=Minimax
+  Game 008/20: X=Minimax    O=DQN        Winner=Minimax
+  Game 009/20: X=Minimax    O=DQN        Winner=Minimax
+  Game 010/20: X=Minimax    O=DQN        Winner=Minimax
+  Game 011/20: X=DQN        O=Minimax    Winner=DRAW
+  Game 012/20: X=DQN        O=Minimax    Winner=DRAW
+  Game 013/20: X=DQN        O=Minimax    Winner=DRAW
+  Game 014/20: X=DQN        O=Minimax    Winner=DRAW
+  Game 015/20: X=DQN        O=Minimax    Winner=DRAW
+  Game 016/20: X=DQN        O=Minimax    Winner=DRAW
+  Game 017/20: X=DQN        O=Minimax    Winner=DRAW
+  Game 018/20: X=DQN        O=Minimax    Winner=DRAW
+  Game 019/20: X=DQN        O=Minimax    Winner=DRAW
+  Game 020/20: X=DQN        O=Minimax    Winner=DRAW
+
+[13/15] Alpha-Beta vs MCTS
+  Game 001/20: X=Alpha-Beta O=MCTS       Winner=DRAW
+  Game 002/20: X=Alpha-Beta O=MCTS       Winner=DRAW
+  Game 003/20: X=Alpha-Beta O=MCTS       Winner=DRAW
+  Game 004/20: X=Alpha-Beta O=MCTS       Winner=DRAW
+  Game 005/20: X=Alpha-Beta O=MCTS       Winner=DRAW
+  Game 006/20: X=Alpha-Beta O=MCTS       Winner=DRAW
+  Game 007/20: X=Alpha-Beta O=MCTS       Winner=DRAW
+  Game 008/20: X=Alpha-Beta O=MCTS       Winner=DRAW
+  Game 009/20: X=Alpha-Beta O=MCTS       Winner=DRAW
+  Game 010/20: X=Alpha-Beta O=MCTS       Winner=DRAW
+  Game 011/20: X=MCTS       O=Alpha-Beta Winner=DRAW
+  Game 012/20: X=MCTS       O=Alpha-Beta Winner=DRAW
+  Game 013/20: X=MCTS       O=Alpha-Beta Winner=DRAW
+  Game 014/20: X=MCTS       O=Alpha-Beta Winner=DRAW
+  Game 015/20: X=MCTS       O=Alpha-Beta Winner=DRAW
+  Game 016/20: X=MCTS       O=Alpha-Beta Winner=DRAW
+  Game 017/20: X=MCTS       O=Alpha-Beta Winner=DRAW
+  Game 018/20: X=MCTS       O=Alpha-Beta Winner=DRAW
+  Game 019/20: X=MCTS       O=Alpha-Beta Winner=DRAW
+  Game 020/20: X=MCTS       O=Alpha-Beta Winner=DRAW
+
+[14/15] Alpha-Beta vs DQN
+  Game 001/20: X=Alpha-Beta O=DQN        Winner=Alpha-Beta
+  Game 002/20: X=Alpha-Beta O=DQN        Winner=Alpha-Beta
+  Game 003/20: X=Alpha-Beta O=DQN        Winner=Alpha-Beta
+  Game 004/20: X=Alpha-Beta O=DQN        Winner=Alpha-Beta
+  Game 005/20: X=Alpha-Beta O=DQN        Winner=Alpha-Beta
+  Game 006/20: X=Alpha-Beta O=DQN        Winner=Alpha-Beta
+  Game 007/20: X=Alpha-Beta O=DQN        Winner=Alpha-Beta
+  Game 008/20: X=Alpha-Beta O=DQN        Winner=Alpha-Beta
+  Game 009/20: X=Alpha-Beta O=DQN        Winner=Alpha-Beta
+  Game 010/20: X=Alpha-Beta O=DQN        Winner=Alpha-Beta
+  Game 011/20: X=DQN        O=Alpha-Beta Winner=DRAW
+  Game 012/20: X=DQN        O=Alpha-Beta Winner=DRAW
+  Game 013/20: X=DQN        O=Alpha-Beta Winner=DRAW
+  Game 014/20: X=DQN        O=Alpha-Beta Winner=DRAW
+  Game 015/20: X=DQN        O=Alpha-Beta Winner=DRAW
+  Game 016/20: X=DQN        O=Alpha-Beta Winner=DRAW
+  Game 017/20: X=DQN        O=Alpha-Beta Winner=DRAW
+  Game 018/20: X=DQN        O=Alpha-Beta Winner=DRAW
+  Game 019/20: X=DQN        O=Alpha-Beta Winner=DRAW
+  Game 020/20: X=DQN        O=Alpha-Beta Winner=DRAW
+
+[15/15] MCTS vs DQN
+  Game 001/20: X=MCTS       O=DQN        Winner=MCTS
+  Game 002/20: X=MCTS       O=DQN        Winner=MCTS
+  Game 003/20: X=MCTS       O=DQN        Winner=MCTS
+  Game 004/20: X=MCTS       O=DQN        Winner=MCTS
+  Game 005/20: X=MCTS       O=DQN        Winner=MCTS
+  Game 006/20: X=MCTS       O=DQN        Winner=MCTS
+  Game 007/20: X=MCTS       O=DQN        Winner=MCTS
+  Game 008/20: X=MCTS       O=DQN        Winner=MCTS
+  Game 009/20: X=MCTS       O=DQN        Winner=MCTS
+  Game 010/20: X=MCTS       O=DQN        Winner=MCTS
+  Game 011/20: X=DQN        O=MCTS       Winner=MCTS
+  Game 012/20: X=DQN        O=MCTS       Winner=MCTS
+  Game 013/20: X=DQN        O=MCTS       Winner=MCTS
+  Game 014/20: X=DQN        O=MCTS       Winner=MCTS
+  Game 015/20: X=DQN        O=MCTS       Winner=MCTS
+  Game 016/20: X=DQN        O=MCTS       Winner=MCTS
+  Game 017/20: X=DQN        O=MCTS       Winner=MCTS
+  Game 018/20: X=DQN        O=MCTS       Winner=MCTS
+  Game 019/20: X=DQN        O=MCTS       Winner=DRAW
+  Game 020/20: X=DQN        O=MCTS       Winner=MCTS
+Đã lưu: D:\TTNTNC\TicTacToe_AI\results\seed_analysis\seed_2027\match_results.csv
+Đã lưu: D:\TTNTNC\TicTacToe_AI\results\seed_analysis\seed_2027\move_results.csv
+Đã lưu: D:\TTNTNC\TicTacToe_AI\results\seed_analysis\seed_2027\agent_summary.csv
+
+============================================================
+TOURNAMENT COMPLETED
+============================================================
+Tổng số ván: 300
+Thời gian: 823.34 giây
+
+BẢNG XẾP HẠNG
+1. Heuristic    W=40   D=60   L=0    Score=0.700
+2. MCTS         W=39   D=61   L=0    Score=0.695
+3. Alpha-Beta   W=26   D=74   L=0    Score=0.630
+4. Minimax      W=24   D=76   L=0    Score=0.620
+5. DQN          W=15   D=24   L=61   Score=0.270
+6. Random       W=2    D=13   L=85   Score=0.085

@@ -1,0 +1,7 @@
+﻿Agent,X Games,X Wins,X Draws,X Losses,X Win Rate,X Score,O Games,O Wins,O Draws,O Losses,O Win Rate,O Score,Score Difference (X-O),Position Analysis
+Random,250,5,50,195,0.02,0.12,250,3,27,220,0.012,0.066,0.05399999999999999,Có lợi thế khi đi trước
+Heuristic,250,100,150,0,0.4,0.7,250,100,150,0,0.4,0.7,0.0,Ít ảnh hưởng
+Minimax,250,90,160,0,0.36,0.68,250,40,210,0,0.16,0.58,0.10000000000000009,Có lợi thế khi đi trước
+Alpha-Beta,250,89,161,0,0.356,0.678,250,22,228,0,0.088,0.544,0.134,Có lợi thế khi đi trước
+MCTS,250,98,152,0,0.392,0.696,250,91,158,1,0.364,0.68,0.015999999999999903,Ít ảnh hưởng
+DQN,250,43,110,97,0.172,0.392,250,36,10,204,0.144,0.164,0.228,Có lợi thế khi đi trước

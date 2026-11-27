@@ -1,0 +1,17 @@
+﻿X_Agent,O_Agent,Winner,Moves,Opponent,MCTS_Result,Match_Number
+MCTS,Random,MCTS,9,Random,Win,1
+Random,MCTS,MCTS,10,Random,Win,2
+MCTS,Random,MCTS,9,Random,Win,3
+Random,MCTS,MCTS,8,Random,Win,4
+MCTS,Heuristic,Draw,16,Heuristic,Draw,1
+Heuristic,MCTS,Draw,16,Heuristic,Draw,2
+MCTS,Heuristic,Draw,16,Heuristic,Draw,3
+Heuristic,MCTS,Draw,16,Heuristic,Draw,4
+MCTS,Minimax,Draw,16,Minimax,Draw,1
+Minimax,MCTS,Draw,16,Minimax,Draw,2
+MCTS,Minimax,Draw,16,Minimax,Draw,3
+Minimax,MCTS,Draw,16,Minimax,Draw,4
+MCTS,Alpha-Beta,Draw,16,Alpha-Beta,Draw,1
+Alpha-Beta,MCTS,Draw,16,Alpha-Beta,Draw,2
+MCTS,Alpha-Beta,Draw,16,Alpha-Beta,Draw,3
+Alpha-Beta,MCTS,Draw,16,Alpha-Beta,Draw,4

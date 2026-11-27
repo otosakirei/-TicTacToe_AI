@@ -1,0 +1,4 @@
+﻿Configuration,Same_Action_Count,Total_States,Agreement_Percentage
+Baseline,20,20,100.0
+No Exploration,4,20,20.0
+No Expansion,12,20,60.0

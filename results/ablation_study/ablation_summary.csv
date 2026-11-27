@@ -1,0 +1,3 @@
+﻿Algorithm,Total_States,Mean_Nodes,Median_Nodes,Mean_Decision_Time,Median_Decision_Time,Mean_Nodes_Per_Second,Mean_Pruned_Branches,Mean_Pruning_Rate
+Alpha-Beta,20,1320.5,1114.0,0.094905710000603,0.07937065001169685,14428.488839334905,1282.95,52.948583027776884
+Minimax,20,9029.8,5748.0,0.7747399949992542,0.4298285999975633,12554.432760754562,0.0,0.0

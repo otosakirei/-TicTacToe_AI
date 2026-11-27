@@ -1,0 +1,18 @@
+{
+    "board_size": 4,
+    "win_length": 4,
+    "games_per_pair": 100,
+    "agents": [
+        "Random",
+        "Heuristic",
+        "Minimax",
+        "Alpha-Beta",
+        "MCTS",
+        "DQN"
+    ],
+    "number_of_pairs": 15,
+    "total_games": 1500,
+    "seed": 42,
+    "tournament_time_seconds": 4051.2674582000036,
+    "device": "cuda"
+}

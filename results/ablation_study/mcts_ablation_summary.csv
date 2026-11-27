@@ -1,0 +1,4 @@
+﻿Configuration,Total_States,Mean_Decision_Time,Mean_Simulations,Mean_Nodes_Created,Mean_Tree_Nodes_Visited,Mean_Rollout_Steps,Mean_Simulations_Per_Second
+Baseline,20,0.10227543499786407,500.0,490.0,1380.9,3219.8,5073.3917516395695
+No Expansion,20,0.702072455000598,5325.0,1.0,0.0,45331.45,7922.875333699679
+No Exploration,20,0.12203506500081858,500.0,156.3,4171.6,983.75,4532.821356835239

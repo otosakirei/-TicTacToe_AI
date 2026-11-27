@@ -1,0 +1,25 @@
+﻿Agent X,Agent O,Winner
+Random,Heuristic,Heuristic
+Heuristic,Random,Heuristic
+Random,Heuristic,Heuristic
+Heuristic,Random,Heuristic
+Random,Minimax,Minimax
+Minimax,Random,DRAW
+Random,Minimax,DRAW
+Minimax,Random,Minimax
+Random,Alpha-Beta,DRAW
+Alpha-Beta,Random,Alpha-Beta
+Random,Alpha-Beta,Alpha-Beta
+Alpha-Beta,Random,Alpha-Beta
+Heuristic,Minimax,DRAW
+Minimax,Heuristic,DRAW
+Heuristic,Minimax,DRAW
+Minimax,Heuristic,DRAW
+Heuristic,Alpha-Beta,DRAW
+Alpha-Beta,Heuristic,DRAW
+Heuristic,Alpha-Beta,DRAW
+Alpha-Beta,Heuristic,DRAW
+Minimax,Alpha-Beta,DRAW
+Alpha-Beta,Minimax,DRAW
+Minimax,Alpha-Beta,DRAW
+Alpha-Beta,Minimax,DRAW

@@ -1,0 +1,5 @@
+﻿Agent,Games,Wins,Draws,Losses,Win Rate (%),Score Rate (%)
+Random,12,0,3,9,0.0,12.5
+Heuristic,12,4,8,0,33.33,66.67
+Minimax,12,2,10,0,16.67,58.33
+Alpha-Beta,12,3,9,0,25.0,62.5
