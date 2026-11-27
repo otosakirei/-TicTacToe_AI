@@ -4,3 +4,5 @@ matplotlib
 pytest
 ipykernel
 jupyter
+pygame
+torch
